@@ -106,3 +106,15 @@ margin: 10px auto 0;
 span{
   display: inline-block
 }
+.color1{
+  color: red !important;
+}
+.color2{
+  color: #9a9998 !important;
+}
+.color3{
+  color: #666 !important;
+}
+color4{
+  color: black !important;
+}

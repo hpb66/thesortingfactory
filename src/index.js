@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import ButtonAppBar from './navbar';
-import TypeWriter from './typewriter/typewriter';
-import TopComponent from './topcomponent';
-import Footer from './footer';
+import ButtonAppBar from './components/topcomponent/navbar';
+import TopComponent from './components/topcomponent/topcomponent';
+import Footer from './components/footer/footer';
+import TypeWriter from './components/typewriter/typewriter';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -28,6 +28,12 @@ ReactDOM.render(
     <Footer/>
    </React.StrictMode>,
   document.getElementById('footer')
+)
+ReactDOM.render(
+  <React.StrictMode>
+    <TypeWriter/>
+   </React.StrictMode>,
+  document.getElementById('typewriter')
 )
 
 // If you want to start measuring performance in your app, pass a function
