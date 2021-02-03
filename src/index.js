@@ -22,10 +22,7 @@ ReactDOM.render(
   document.getElementById('topcomponent')
 );
 
-ReactDOM.render(
-    <TypeWriter/>,
-  document.getElementById('typewriter')
-)
+
 ReactDOM.render(
   <React.StrictMode>
     <Footer/>
