@@ -55,7 +55,6 @@ export default class TypeWriter extends React.Component {
             this.setState(state => ({
                 wpm: Math.floor((this.words * 60) / this.counter)
             }))
-            console.log(this.state.wpm);
         }
         if (this.state.stringList[this.state.blinkIndex] === e.key) {
             this.setState(state => ({

@@ -93,7 +93,6 @@ function ResponsiveDrawer(props) {
         if(mobileOpen){
             setMobileOpen(false)
         }
-        console.log("clicked proj")
         globalCache.insert('projects');
     }
     const handlegetintouch = (ev) => {

@@ -191,11 +191,9 @@ export default function SimpleContainer() {
                             onChange={(isVisible) => {
                                 
                                 if(isVisible){
-                                    console.log("if About getting called")
                                     globalCache.insert('handleAboutBackground');
                                 }
                                 else if(loaded){
-                                    console.log("else About getting called")
                                     globalCache.insert('handleProjectsBackground')
 
                                 }
@@ -309,7 +307,6 @@ export default function SimpleContainer() {
                                 
                                 setState({ ...state, visor5: isVisible });
                                 if(isVisible){
-                                    console.log("if Projects getting called")
                                     globalCache.insert('handleProjectsBackground')
                                 }
                             }}
@@ -531,11 +528,9 @@ export default function SimpleContainer() {
                                 
                                 setState({ ...state, visor11: isVisible });
                                 if(isVisible){
-                                    console.log("if Contact getting called")
                                     globalCache.insert('handleContactBackground')
                                 }
                                 else if(loaded){
-                                    console.log("else Contact getting called")
                                     globalCache.insert('handleProjectsBackground')
                                 }
                             }}
@@ -594,11 +589,9 @@ export default function SimpleContainer() {
                             onChange={(isVisible) => {
                                 setState({ ...state, visor12: isVisible });
                                 if(isVisible){
-                                    console.log("if Social getting called")
                                     globalCache.insert('handleSocialBackground')
                                 }
                                 else if(loaded){
-                                    console.log("else Social getting called")
                                     globalCache.insert('handleContactBackground')
                                 }
                             }}

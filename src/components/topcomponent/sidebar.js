@@ -11,8 +11,6 @@ export default class Sidebar extends React.Component {
       btnClicked: false,
       isDesktop: document.body.clientWidth < 1200 ? false : true
     }
-    console.log(document.body.clientWidth)
-    console.log(this.state.isDesktop);
   }
   btnClicked() {
     this.setState({

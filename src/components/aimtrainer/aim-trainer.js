@@ -54,15 +54,12 @@ export default class AimTrainer extends React.Component{
                 
             }
             
-            console.log(this.count);
             
         }, 1000);
     }
     handleCanvasClick(e){
         this.xVal = Math.floor(this.xVal/2);
         this.yVal = Math.floor(this.yVal/2);
-        console.log("First " + e.pageX + " " + this.xVal);
-        console.log("Second " + e.pageY + " " + this.yVal);
         
         if((e.pageX <= this.xVal+70 && e.pageX >= this.xVal-70)&&(e.pageY<=this.yVal+70 && e.pageY>=this.yVal-70) && this.handler){
             
